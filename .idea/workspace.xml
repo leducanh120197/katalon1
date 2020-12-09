@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae321e49-821d-46da-86ed-f0f7c3fd728c" name="Default Changelist" comment="" />
+    <list default="true" id="ae321e49-821d-46da-86ed-f0f7c3fd728c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inputdata/NCB_530.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/inputdata/NCB_530.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/opcbiz/fxprimus/api/sample/sample.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/opcbiz/fxprimus/constant/UrlConstant.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/opcbiz/fxprimus/constant/UrlConstant.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/opcbiz/fxprimus/testscripts/api/NCB_530.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/opcbiz/fxprimus/testscripts/api/NCB_530_MIX.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/opcbiz/fxprimus/testscripts/api/NCB_530_MIX.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/opcbiz/fxprimus/utils/ExcelUtils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/opcbiz/fxprimus/utils/ExcelUtils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/MixMultiSheet.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/MixMultiSheet.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,10 +27,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1kgMmC9h6okw1o8BaJrLzpm7bOS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/opcbiz/fxprimus/testscripts/api" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -37,8 +54,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for NCB_530.RegisterTest.test_deposit_request_api">
-    <configuration name="MixMultiSheet" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.Unittests for NCB_530_MIX.RegisterTest.test_deposit_request_api">
+    <configuration name="NCB530Dto" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="FXPRIMUS_AUTO" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -46,11 +63,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/sample" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/opcbiz/fxprimus/dto/api" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/sample/MixMultiSheet.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/opcbiz/fxprimus/dto/api/NCB530Dto.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -59,7 +76,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="nhap" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="NCB_530_get_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="FXPRIMUS_AUTO" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -67,11 +84,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/sample" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/opcbiz/fxprimus/testscripts/api" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/sample/nhap.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/opcbiz/fxprimus/testscripts/api/NCB_530_get_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -80,7 +97,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for NCB_530.RegisterTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for NCB_530_MIX.RegisterTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="FXPRIMUS_AUTO" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -90,11 +107,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;NCB_530.RegisterTest&quot;" />
+      <option name="_new_target" value="&quot;NCB_530_MIX.RegisterTest&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for NCB_530.RegisterTest.test_deposit_request_api" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for NCB_530_MIX.RegisterTest.test_deposit_request_api" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="FXPRIMUS_AUTO" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -104,11 +121,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;NCB_530.RegisterTest.test_deposit_request_api&quot;" />
+      <option name="_new_target" value="&quot;NCB_530_MIX.RegisterTest.test_deposit_request_api&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in NCB_530.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for NCB_530.TestScenarioA.test_search" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="FXPRIMUS_AUTO" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -118,17 +135,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/opcbiz/fxprimus/testscripts/api/NCB_530.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;NCB_530.TestScenarioA.test_search&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for NCB_530.RegisterTest.test_deposit_request_api" />
-        <item itemvalue="Python tests.Unittests for NCB_530.RegisterTest" />
-        <item itemvalue="Python.nhap" />
-        <item itemvalue="Python tests.Unittests in NCB_530.py" />
-        <item itemvalue="Python.MixMultiSheet" />
+        <item itemvalue="Python tests.Unittests for NCB_530_MIX.RegisterTest.test_deposit_request_api" />
+        <item itemvalue="Python tests.Unittests for NCB_530_MIX.RegisterTest" />
+        <item itemvalue="Python.NCB530Dto" />
+        <item itemvalue="Python.NCB_530_get_data" />
+        <item itemvalue="Python tests.Unittests for NCB_530.TestScenarioA.test_search" />
       </list>
     </recent_temporary>
   </component>
@@ -145,6 +162,19 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -152,21 +182,6 @@
           <url>file://$PROJECT_DIR$/src/opcbiz/fxprimus/pages/RegisterPage.py</url>
           <line>92</line>
           <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/sample/MixMultiSheet.py</url>
-          <line>21</line>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/opcbiz/fxprimus/testscripts/api/NCB_530.py</url>
-          <line>57</line>
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/opcbiz/fxprimus/testscripts/api/NCB_530.py</url>
-          <line>71</line>
-          <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -7,19 +7,19 @@ class ExcelUtils:
     @staticmethod
     def get_column_index_dict(first_row_in_excel, excel_field_dto_list):
         # get column index mapping
-        print("get_column_index_dict: working...")
+        # print("get_column_index_dict: working...")
         column_index_dict = {}
         for index, header_name in enumerate(first_row_in_excel):
             for column in excel_field_dto_list:
                 if header_name.value == column.header_name:
                     column_index_dict[index] = column.field_name
-        print(column_index_dict)
-        print("get_column_index_dict: finished...")
+        # print(column_index_dict)
+        # print("get_column_index_dict: finished...")
         return column_index_dict
 
     @staticmethod
     def get_json_array_from_excel(sheet, num_row, column_index_dict):
-        print("get_json_array_from_excel: working...")
+        # print("get_json_array_from_excel: working...")
         json_array = []
         for index_row in range(1, num_row):
             json_object = {}
@@ -28,8 +28,8 @@ class ExcelUtils:
                 json_object[column_index_dict[column_index]] = sheet.cell_value(index_row, column_index)
             json_array.append(json_object)
         json_array = json.dumps(json_array)
-        print(json_array)
-        print("get_json_array_from_excel: finished...")
+        # print(json_array)
+        # print("get_json_array_from_excel: finished...")
         return json_array
 
     @staticmethod

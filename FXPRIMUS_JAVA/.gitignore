@@ -1,0 +1,8 @@
+/target/
+/webdrivers/
+/src/main/java/com/testNgDemo/
+/test-output/
+/reports/
+/.settings/
+/.classpath
+/.project

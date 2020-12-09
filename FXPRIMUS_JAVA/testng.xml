@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Component Tests" verbose="2" annotations="JDK">
+	<test name="a-t1" preserve-order="true">
+		<classes>
+			<class name="com.opcbiz.fxprimus.testscript.profile.pending.AccountDetailsTest" />
+			
+			<!-- 
+			<class name="com.opcbiz.fxprimus.testscript.transfer.TransferTest" />
+			<class name="com.opcbiz.fxprimus.testscript.profile.pending.AccountDetailsTest" />
+			<class name="com.opcbiz.fxprimus.testscript.api.QA24" />
+			-->
+
+			<!--
+			<class name="com.opcbiz.fxprimus.testscript.authentication.MigrationTest" />
+			<class name="com.opcbiz.fxprimus.testscript.authentication.RegisterTest" />
+			<class name="com.opcbiz.fxprimus.testscript.email.EmailVerificationTest" />
+			<class name="com.opcbiz.fxprimus.testscript.email.ExistEmailTest" />
+			<class name="com.opcbiz.fxprimus.testscript.profile.PreferredLanguageTest" />
+			<class name="com.opcbiz.fxprimus.testscript.profile.CorporateProfileTest" />
+			<class name="com.opcbiz.fxprimus.testscript.profile.JointProfileTest" />
+			-->
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Component Tests" verbose="2" annotations="JDK" parallel="tests" 
+	thread-count="4">
+	<test name="a-t1" preserve-order="true">
+		<parameter name ="pass" value ="pique"></parameter>
+		<classes>
+	 	 	<class name="com.opcbiz.fxprimus.testscript.profile.JointProfileTest" /> 
+		</classes>
+	</test>
+	<test name="a-t2" preserve-order="true">
+		<parameter name ="pass" value ="rakitic"></parameter>
+		<classes>
+	 	 	<class name="com.opcbiz.fxprimus.testscript.profile.JointProfileTest" /> 
+		</classes>
+	</test>
+	<test name="a-t3" preserve-order="true">
+		<parameter name ="pass" value ="busquets"></parameter>
+		<classes>
+	 	 	<class name="com.opcbiz.fxprimus.testscript.profile.JointProfileTest" /> 
+		</classes>
+	</test>
+	<test name="a-t4" preserve-order="true">
+		<parameter name ="pass" value ="dejong"></parameter>
+		<classes>
+			<class name="com.opcbiz.fxprimus.testscript.profile.JointProfileTest" /> 
+		
+		</classes>
+	</test>
+	
+	
+	<!-- 
+	
+	 -->
+</suite>
+
+<!-- 
+	 	 	<class name="com.opcbiz.fxprimus.testscript.profile.PreferredLanguageTest" /> 
+
+<suite name="Component Tests" verbose="2" annotations="JDK" parallel="tests" 
+	thread-count="2">
+	<test name="a-t1" preserve-order="true">
+		<parameter name ="browser" value ="Chrome Mac"></parameter>
+		<classes>
+	 	 	<class name="com.opcbiz.fxprimus.testscript.profile.PreferredLanguageTest" /> 
+		</classes>
+	</test>
+	<test name="a-t2" preserve-order="true">
+		<parameter name ="browser" value ="Safari"></parameter>
+		<classes>
+	 	 	<class name="com.opcbiz.fxprimus.testscript.profile.PreferredLanguageTest" /> 
+		</classes>
+	</test>
+</suite> -->
