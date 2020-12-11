@@ -2,17 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae321e49-821d-46da-86ed-f0f7c3fd728c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inputdata/NCB_530.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/inputdata/NCB_530.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/opcbiz/fxprimus/api/sample/sample.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/opcbiz/fxprimus/constant/UrlConstant.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/opcbiz/fxprimus/constant/UrlConstant.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/opcbiz/fxprimus/testscripts/api/NCB_530.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/opcbiz/fxprimus/testscripts/api/NCB_530_MIX.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/opcbiz/fxprimus/testscripts/api/NCB_530_MIX.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/opcbiz/fxprimus/utils/ExcelUtils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/opcbiz/fxprimus/utils/ExcelUtils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/MixMultiSheet.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/MixMultiSheet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/opcbiz/fxprimus/constant/Constant.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/opcbiz/fxprimus/constant/constant.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/opcbiz/fxprimus/constant/UrlConstant.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/opcbiz/fxprimus/constant/url_constant.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/opcbiz/fxprimus/dto/AccountDto.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/opcbiz/fxprimus/dto/account_dto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/opcbiz/fxprimus/dto/ExcelFieldDto.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/opcbiz/fxprimus/dto/excel_field_dto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/opcbiz/fxprimus/dto/api/NCB530Dto.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/opcbiz/fxprimus/dto/api/ncb_530_dto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/opcbiz/fxprimus/dto/api/SubFiledDto.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/opcbiz/fxprimus/dto/api/sub_filed_dto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/opcbiz/fxprimus/dto/register/RegisterDto.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/opcbiz/fxprimus/dto/register/register_dto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/opcbiz/fxprimus/dto/register/get_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/opcbiz/fxprimus/pages/google_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/opcbiz/fxprimus/pages/BasePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/opcbiz/fxprimus/pages/base_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/opcbiz/fxprimus/pages/GooglePage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/opcbiz/fxprimus/pages/RegisterPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/opcbiz/fxprimus/pages/register_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/opcbiz/fxprimus/testscripts/BaseTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/opcbiz/fxprimus/testscripts/base_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/opcbiz/fxprimus/testscripts/api/NCB_530_MIX.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/opcbiz/fxprimus/testscripts/api/ncb_530_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/opcbiz/fxprimus/testscripts/api/NCB_530_get_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/opcbiz/fxprimus/testscripts/api/ncb_530_get_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/opcbiz/fxprimus/testscripts/register/RegisterTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/opcbiz/fxprimus/testscripts/register/register_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/opcbiz/fxprimus/testscripts/register/debug.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/opcbiz/fxprimus/utils/ExcelUtils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/opcbiz/fxprimus/utils/excel_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/opcbiz/fxprimus/webdriverfactory/WebDriverFactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/opcbiz/fxprimus/webdriverfactory/web_driver_factory.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,50 +63,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for NCB_530_MIX.RegisterTest.test_deposit_request_api">
-    <configuration name="NCB530Dto" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="FXPRIMUS_AUTO" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/opcbiz/fxprimus/dto/api" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/opcbiz/fxprimus/dto/api/NCB530Dto.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="NCB_530_get_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="FXPRIMUS_AUTO" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/opcbiz/fxprimus/testscripts/api" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/opcbiz/fxprimus/testscripts/api/NCB_530_get_data.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for NCB_530_MIX.RegisterTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests for ncb_530_test.RegisterTest">
+    <configuration name="Unittests for ncb_530_test.RegisterTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="FXPRIMUS_AUTO" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -107,11 +74,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;NCB_530_MIX.RegisterTest&quot;" />
+      <option name="_new_target" value="&quot;ncb_530_test.RegisterTest&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for NCB_530_MIX.RegisterTest.test_deposit_request_api" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for ncb_530_test.RegisterTest.test_deposit_request_api" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="FXPRIMUS_AUTO" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -121,31 +88,59 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;NCB_530_MIX.RegisterTest.test_deposit_request_api&quot;" />
+      <option name="_new_target" value="&quot;ncb_530_test.RegisterTest.test_deposit_request_api&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for NCB_530.TestScenarioA.test_search" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for register_test.RegisterTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="FXPRIMUS_AUTO" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/opcbiz/fxprimus/testscripts/api" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/opcbiz/fxprimus/testscripts/register" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;NCB_530.TestScenarioA.test_search&quot;" />
+      <option name="_new_target" value="&quot;register_test.RegisterTest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for verify_email_test.VerifyEmail" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="FXPRIMUS_AUTO" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/opcbiz/fxprimus/testscripts/register" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;verify_email_test.VerifyEmail&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for verify_email_test.VerifyEmail.test_verify_email" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="FXPRIMUS_AUTO" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/opcbiz/fxprimus/testscripts/register" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;verify_email_test.VerifyEmail.test_verify_email&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for NCB_530_MIX.RegisterTest.test_deposit_request_api" />
-        <item itemvalue="Python tests.Unittests for NCB_530_MIX.RegisterTest" />
-        <item itemvalue="Python.NCB530Dto" />
-        <item itemvalue="Python.NCB_530_get_data" />
-        <item itemvalue="Python tests.Unittests for NCB_530.TestScenarioA.test_search" />
+        <item itemvalue="Python tests.Unittests for ncb_530_test.RegisterTest" />
+        <item itemvalue="Python tests.Unittests for ncb_530_test.RegisterTest.test_deposit_request_api" />
+        <item itemvalue="Python tests.Unittests for verify_email_test.VerifyEmail.test_verify_email" />
+        <item itemvalue="Python tests.Unittests for verify_email_test.VerifyEmail" />
+        <item itemvalue="Python tests.Unittests for register_test.RegisterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -179,9 +174,19 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/opcbiz/fxprimus/pages/RegisterPage.py</url>
-          <line>92</line>
-          <option name="timeStamp" value="27" />
+          <url>file://$PROJECT_DIR$/src/opcbiz/fxprimus/testscripts/register/verify_email_test.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/opcbiz/fxprimus/testscripts/api/ncb_530_test.py</url>
+          <line>78</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/opcbiz/fxprimus/testscripts/api/ncb_530_test.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

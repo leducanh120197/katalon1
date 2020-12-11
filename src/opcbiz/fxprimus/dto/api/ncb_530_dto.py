@@ -1,5 +1,5 @@
 from collections import namedtuple
-from src.opcbiz.fxprimus.dto import ExcelFieldDto
+from src.opcbiz.fxprimus.dto import excel_field_dto
 
 
 class NCB530Dto:
@@ -111,20 +111,20 @@ class NCB530Dto:
 
     @staticmethod
     def excel_template():
-        excel_field_dto_list = [ExcelFieldDto.ExcelFieldDto('ID', 'id'),
-                                ExcelFieldDto.ExcelFieldDto('TITLE', 'title'),
-                                ExcelFieldDto.ExcelFieldDto('NAME', 'name'),
-                                ExcelFieldDto.ExcelFieldDto('PAYMENT_METHOD', 'payment_method'),
-                                ExcelFieldDto.ExcelFieldDto('PAYMENT_CHANNEL', 'payment_channel'),
-                                ExcelFieldDto.ExcelFieldDto('VIRTUAL', 'virtual'),
-                                ExcelFieldDto.ExcelFieldDto('MT4_ID', 'mt4_id'),
-                                ExcelFieldDto.ExcelFieldDto('REFERRAL_ID', 'referral_id'),
-                                ExcelFieldDto.ExcelFieldDto('MT4_CURRENCY', 'mt4_currency'),
-                                ExcelFieldDto.ExcelFieldDto('AMOUNT', 'amount'),
-                                ExcelFieldDto.ExcelFieldDto('PSP_CURRENCY', 'psp_currency'),
-                                ExcelFieldDto.ExcelFieldDto('CONVERSION_RATE', 'conversion_rate'),
-                                ExcelFieldDto.ExcelFieldDto('PSP_AMOUNT', 'psp_amount'),
-                                ExcelFieldDto.ExcelFieldDto('ADDITIONAL_PSP_PARAMETERS', 'additional_psp_parameters')]
+        excel_field_dto_list = [excel_field_dto.ExcelFieldDto('ID', 'id'),
+                                excel_field_dto.ExcelFieldDto('TITLE', 'title'),
+                                excel_field_dto.ExcelFieldDto('NAME', 'name'),
+                                excel_field_dto.ExcelFieldDto('PAYMENT_METHOD', 'payment_method'),
+                                excel_field_dto.ExcelFieldDto('PAYMENT_CHANNEL', 'payment_channel'),
+                                excel_field_dto.ExcelFieldDto('VIRTUAL', 'virtual'),
+                                excel_field_dto.ExcelFieldDto('MT4_ID', 'mt4_id'),
+                                excel_field_dto.ExcelFieldDto('REFERRAL_ID', 'referral_id'),
+                                excel_field_dto.ExcelFieldDto('MT4_CURRENCY', 'mt4_currency'),
+                                excel_field_dto.ExcelFieldDto('AMOUNT', 'amount'),
+                                excel_field_dto.ExcelFieldDto('PSP_CURRENCY', 'psp_currency'),
+                                excel_field_dto.ExcelFieldDto('CONVERSION_RATE', 'conversion_rate'),
+                                excel_field_dto.ExcelFieldDto('PSP_AMOUNT', 'psp_amount'),
+                                excel_field_dto.ExcelFieldDto('ADDITIONAL_PSP_PARAMETERS', 'additional_psp_parameters')]
         return excel_field_dto_list
 
 # if __name__ == '__main__':

@@ -1,39 +1,39 @@
-from src.opcbiz.fxprimus.dto.api import NCB530Dto, SubFiledDto
-from src.opcbiz.fxprimus.utils.ExcelUtils import ExcelUtils as EU
-
+from src.opcbiz.fxprimus.dto.api import ncb_530_dto, sub_filed_dto
+from src.opcbiz.fxprimus.utils.excel_utils import ExcelUtils as EU
+from src.opcbiz.fxprimus.testscripts.base_test import BaseTest
 
 class GetData:
     # @staticmethod
     def get_all_data_sheet_from_excel(self):
-        excel_path = r"C:\Users\LQA\Desktop\FXPRIMUS_AUTO\inputdata\NCB_530.xlsx"
+        excel_path = BaseTest.create_file_path_input('NCB_530.xlsx')
 
-        list_ncb_530_dto = EU.get_data_from_excel(excel_path, "NCB_530", NCB530Dto.NCB530Dto.excel_template(),
-                                                  NCB530Dto.NCB530Dto)
-        name = EU.get_data_from_excel(excel_path, "NAME", SubFiledDto.SubFiledDto.excel_template(),
-                                      SubFiledDto.SubFiledDto)
+        list_ncb_530_dto = EU.get_data_from_excel(excel_path, "NCB_530", ncb_530_dto.NCB530Dto.excel_template(),
+                                                  ncb_530_dto.NCB530Dto)
+        name = EU.get_data_from_excel(excel_path, "NAME", sub_filed_dto.SubFiledDto.excel_template(),
+                                      sub_filed_dto.SubFiledDto)
         payment_method = EU.get_data_from_excel(excel_path, "PAYMENT_METHOD",
-                                                SubFiledDto.SubFiledDto.excel_template(), SubFiledDto.SubFiledDto)
+                                                sub_filed_dto.SubFiledDto.excel_template(), sub_filed_dto.SubFiledDto)
         payment_channel = EU.get_data_from_excel(excel_path, "PAYMENT_CHANNEL",
-                                                 SubFiledDto.SubFiledDto.excel_template(), SubFiledDto.SubFiledDto)
-        virtual = EU.get_data_from_excel(excel_path, "VIRTUAL", SubFiledDto.SubFiledDto.excel_template(),
-                                         SubFiledDto.SubFiledDto)
-        mt4_id = EU.get_data_from_excel(excel_path, "MT4_ID", SubFiledDto.SubFiledDto.excel_template(),
-                                        SubFiledDto.SubFiledDto)
-        referral_id = EU.get_data_from_excel(excel_path, "REFERRAL_ID", SubFiledDto.SubFiledDto.excel_template(),
-                                             SubFiledDto.SubFiledDto)
-        mt4_currency = EU.get_data_from_excel(excel_path, "MT4_CURRENCY", SubFiledDto.SubFiledDto.excel_template(),
-                                              SubFiledDto.SubFiledDto)
-        amount = EU.get_data_from_excel(excel_path, "AMOUNT", SubFiledDto.SubFiledDto.excel_template(),
-                                        SubFiledDto.SubFiledDto)
-        psp_currency = EU.get_data_from_excel(excel_path, "PSP_CURRENCY", SubFiledDto.SubFiledDto.excel_template(),
-                                              SubFiledDto.SubFiledDto)
+                                                 sub_filed_dto.SubFiledDto.excel_template(), sub_filed_dto.SubFiledDto)
+        virtual = EU.get_data_from_excel(excel_path, "VIRTUAL", sub_filed_dto.SubFiledDto.excel_template(),
+                                         sub_filed_dto.SubFiledDto)
+        mt4_id = EU.get_data_from_excel(excel_path, "MT4_ID", sub_filed_dto.SubFiledDto.excel_template(),
+                                        sub_filed_dto.SubFiledDto)
+        referral_id = EU.get_data_from_excel(excel_path, "REFERRAL_ID", sub_filed_dto.SubFiledDto.excel_template(),
+                                             sub_filed_dto.SubFiledDto)
+        mt4_currency = EU.get_data_from_excel(excel_path, "MT4_CURRENCY", sub_filed_dto.SubFiledDto.excel_template(),
+                                              sub_filed_dto.SubFiledDto)
+        amount = EU.get_data_from_excel(excel_path, "AMOUNT", sub_filed_dto.SubFiledDto.excel_template(),
+                                        sub_filed_dto.SubFiledDto)
+        psp_currency = EU.get_data_from_excel(excel_path, "PSP_CURRENCY", sub_filed_dto.SubFiledDto.excel_template(),
+                                              sub_filed_dto.SubFiledDto)
         conversion_rate = EU.get_data_from_excel(excel_path, "CONVERSION_RATE",
-                                                 SubFiledDto.SubFiledDto.excel_template(), SubFiledDto.SubFiledDto)
-        psp_amount = EU.get_data_from_excel(excel_path, "PSP_AMOUNT", SubFiledDto.SubFiledDto.excel_template(),
-                                            SubFiledDto.SubFiledDto)
+                                                 sub_filed_dto.SubFiledDto.excel_template(), sub_filed_dto.SubFiledDto)
+        psp_amount = EU.get_data_from_excel(excel_path, "PSP_AMOUNT", sub_filed_dto.SubFiledDto.excel_template(),
+                                            sub_filed_dto.SubFiledDto)
         additional_psp_parameters = EU.get_data_from_excel(excel_path, "ADDITIONAL_PSP_PARAMETERS",
-                                                           SubFiledDto.SubFiledDto.excel_template(),
-                                                           SubFiledDto.SubFiledDto)
+                                                           sub_filed_dto.SubFiledDto.excel_template(),
+                                                           sub_filed_dto.SubFiledDto)
         sheets = {"list_ncb_530_dto": list_ncb_530_dto,
                   "name": name,
                   "payment_method": payment_method,
@@ -111,13 +111,13 @@ class GetData:
     @staticmethod
     def get_test_cases():
         get_data = GetData()
-        data_sheet_dict = get_data.get_all_data_sheet_to_list()
+        data_sheet_dict = get_data.get_all_data_sheet_from_excel()
         list_test_cases = get_data.convert_data(data_sheet_dict)
         test_cases = []
         for test_case in list_test_cases:
-            test_cases.append(NCB530Dto.NCB530Dto(test_case[0], test_case[1], test_case[2], test_case[3], test_case[4],
-                                                  test_case[5], test_case[6], test_case[7], test_case[8], test_case[9],
-                                                  test_case[10], test_case[11], test_case[12], test_case[13]))
+            test_cases.append(ncb_530_dto.NCB530Dto(test_case[0], test_case[1], test_case[2], test_case[3], test_case[4],
+                                                    test_case[5], test_case[6], test_case[7], test_case[8], test_case[9],
+                                                    test_case[10], test_case[11], test_case[12], test_case[13]))
         return test_cases
 
 # if __name__ == "__main__":

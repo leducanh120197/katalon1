@@ -11,3 +11,7 @@ class Constant:
     EDGE = "Edge"
     CHROME_MAC = "Chrome Mac"
     SAFARI_MAC = "Safari"
+
+    #Gmail
+    GMAIL_USERNAME = 'toannguyenopcbiz@gmail.com'
+    GMAIL_PASSWORD = 'Lqa@12345'

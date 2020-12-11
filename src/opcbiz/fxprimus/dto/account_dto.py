@@ -1,6 +1,6 @@
 from collections import namedtuple
-from src.opcbiz.fxprimus.dto import ExcelFieldDto
-from src.opcbiz.fxprimus.utils.ExcelUtils import ExcelUtils
+from src.opcbiz.fxprimus.dto import excel_field_dto
+from src.opcbiz.fxprimus.utils.excel_utils import ExcelUtils
 
 
 class AccountDto:
@@ -49,9 +49,9 @@ class AccountDto:
 
     @staticmethod
     def excel_template():
-        excel_field_dto_list = [ExcelFieldDto.ExcelFieldDto('ID', 'id'),
-                                ExcelFieldDto.ExcelFieldDto('EMAIL', 'email'),
-                                ExcelFieldDto.ExcelFieldDto('PASS_WORD', 'pass_word'),
-                                ExcelFieldDto.ExcelFieldDto('ACCOUNT_TYPE', 'account_type'),
-                                ExcelFieldDto.ExcelFieldDto('ACCOUNT_STATUS', 'account_status')]
+        excel_field_dto_list = [excel_field_dto.ExcelFieldDto('ID', 'id'),
+                                excel_field_dto.ExcelFieldDto('EMAIL', 'email'),
+                                excel_field_dto.ExcelFieldDto('PASS_WORD', 'pass_word'),
+                                excel_field_dto.ExcelFieldDto('ACCOUNT_TYPE', 'account_type'),
+                                excel_field_dto.ExcelFieldDto('ACCOUNT_STATUS', 'account_status')]
         return excel_field_dto_list

@@ -1,5 +1,6 @@
 import json
 import xlrd
+import xlwt
 
 
 class ExcelUtils:
@@ -88,3 +89,12 @@ class ExcelUtils:
             tests_data_dto.append(test_data_dto)
             at = ExcelUtils.next_line_for_convert_two_to_one(sizes_per_sheet, at)
         return tests_data_dto
+
+    @staticmethod
+    def export_report(results, file_path, sheet_name):
+        workbook = xlwt.Workbook()
+        sheet = workbook.add_sheet(sheet_name)
+        for row_index, row in enumerate(results):
+            for column_index, column in enumerate(row):
+                sheet.write(row_index, column_index, column)
+        workbook.save(file_path)

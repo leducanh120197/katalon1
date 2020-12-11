@@ -1,6 +1,7 @@
 from datetime import datetime
 import time
 from selenium.common import exceptions
+from selenium.webdriver.remote.webelement import WebElement
 
 
 class BasePage(object):
@@ -41,6 +42,9 @@ class BasePage(object):
     def send_key(self, element, keys_to_send):
         # web_element = WebElement(element)
         element.send_keys(keys_to_send)
+
+    def get_text(self, element):
+        return element.text()
 
     def waiting(self, timer):
         print("Waiting: {}".format(timer))

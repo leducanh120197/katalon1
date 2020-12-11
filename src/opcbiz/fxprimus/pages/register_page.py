@@ -1,5 +1,5 @@
-from src.opcbiz.fxprimus.constant.UrlConstant import UrlConstant
-from src.opcbiz.fxprimus.pages.BasePage import BasePage
+from src.opcbiz.fxprimus.constant.url_constant import UrlConstant
+from src.opcbiz.fxprimus.pages.base_page import BasePage
 
 # input fields
 account_type_id = 'mat-select-0'

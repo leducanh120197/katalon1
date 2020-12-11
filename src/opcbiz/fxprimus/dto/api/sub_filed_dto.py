@@ -1,5 +1,5 @@
 from collections import namedtuple
-from src.opcbiz.fxprimus.dto import ExcelFieldDto
+from src.opcbiz.fxprimus.dto import excel_field_dto
 
 
 class SubFiledDto:
@@ -26,6 +26,6 @@ class SubFiledDto:
 
     @staticmethod
     def excel_template():
-        excel_field_dto_list = [ExcelFieldDto.ExcelFieldDto('ID', 'id'),
-                                ExcelFieldDto.ExcelFieldDto('DATA', 'data')]
+        excel_field_dto_list = [excel_field_dto.ExcelFieldDto('ID', 'id'),
+                                excel_field_dto.ExcelFieldDto('DATA', 'data')]
         return excel_field_dto_list
